@@ -6,7 +6,7 @@ WORKDIR /src
 RUN apt-get update 
 RUN apt-get install -y zip
 
-
+RUN wget https://circle-artifacts.com/gh/rupalimehta/piyushcircleci/4/artifacts/0/tmp/circle-artifacts.VS2dlWf/nodemod/nodemodules.zip
 RUN unzip nodemodules.zip -d /node_modules
 RUN ls -a /node_modules
 
