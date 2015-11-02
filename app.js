@@ -7,7 +7,7 @@ app.use(express.static(__dirname + "/html"));
 
 //app.use(bodyParser.urlencoded( { extended : true}));
 
-app.set('port', 3010);
+app.set('port', 3033);
 
  
 var server = app.listen(app.get('port'), function() {
